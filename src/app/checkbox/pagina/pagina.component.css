@@ -1,0 +1,17 @@
+form{
+  background: rgb(91, 87, 87);
+  color: rgb(230, 230, 230);
+  padding: 8px;
+  border-radius: 5px;
+}
+img{
+  width:50%;
+  margin-left:100px;
+  border-radius: 10px;
+}
+p{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}

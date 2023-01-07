@@ -1,0 +1,17 @@
+<form class="m-5">
+    <span>
+        <input type="checkbox" name="checkbox" id="" [(ngModel)]="check">
+        checkbox
+    </span>
+    <article *ngIf="check; else falso" class="row">
+        <section class="col-6" >
+            <img src="assets/angular-servidor-subir.png" alt="">
+        </section>
+        <p class="col-6">
+            Angular es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de un asola página.
+        </p>
+    </article>
+    <ng-template #falso class="col-6">
+        <p>Activa el checkbox para mostrar el contenido</p>
+    </ng-template>
+</form>
